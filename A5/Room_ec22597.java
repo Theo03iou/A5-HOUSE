@@ -12,7 +12,7 @@ public class Room_ec22597 extends Room{
         } else {
             visitor.tell("Aw! You didn't choose to study :(\n-3 Gold!, You must go North...");
         }
-        return Direction.FROM_SOUTH;
+        return Direction.TO_NORTH;
 
     }
 }
